@@ -30,9 +30,10 @@ scikit-learn, pytest, mypy, GitHub Actions.
 
 ## Portfolio
 
-Eleven projects from the master, all public and MIT licensed. I went back through them
-afterwards and brought them to a consistent standard: tests and CI where it made sense,
-type checking, a README that explains the choices rather than just the code.
+Eleven projects from the master, all public and MIT licensed. I made the design decisions
+and Claude wrote much of the code. I went back through them afterwards and brought them to
+a consistent standard: tests and CI where it made sense, type checking, a README that
+explains the choices rather than just the code.
 [Browse them all here.](https://github.com/profession-ai-data-engineering-master)
 
 | # | Project | What it is | Stack |
