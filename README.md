@@ -4,36 +4,36 @@ I'm a data engineer based in Messina, Italy.
 
 For the past seven years I've worked on the data systems companies actually run on, mostly
 as a consultant, which means a lot of different clients and domains. Oracle ETL pipelines
-and regulatory reporting (IVASS, ANIA) for insurance groups. High volume telematics
-ingestion over Kafka. PostgreSQL modeling and ingestion for an energy sector portal, plus
-the ASP.NET Core services around it. The unglamorous parts: legacy PL/SQL migrations
-between instances, reconciling data that two systems disagree about, jobs that have to run
-correctly at 3am.
+and regulatory reporting (IVASS, ANIA) for insurance groups. Production support and data
+operations on a high volume telematics streaming platform. PostgreSQL modeling and
+ingestion for an energy sector portal, plus the ASP.NET Core services around it. The
+unglamorous parts: legacy PL/SQL migrations between instances, reconciling data that two
+systems disagree about, jobs that have to run correctly at 3am.
 
 More recently I've been moving toward the modern data stack. I finished a
-[Master in Data Engineering](https://certify.profession.ai/69f88359c63b283adf882aca) and
-I'm working through the Databricks Data Engineer Associate. Everything in the portfolio
-below came out of that.
+[Master in Data Engineering](https://certify.profession.ai/69f88359c63b283adf882aca).
+The eleven projects below came out of that.
 
 Best way to reach me: [LinkedIn](https://www.linkedin.com/in/federicovita/) or
 [federico.vita1997@gmail.com](mailto:federico.vita1997@gmail.com).
 
 ## What I use
 
-**Day to day at work:** SQL, PL/SQL on Oracle, Python, PostgreSQL, Kafka, Docker, C# and
+**Day to day at work:** SQL, PL/SQL on Oracle, Python, PostgreSQL, Docker, C# and
 ASP.NET Core, KNIME.
 
 **In the portfolio and side projects:** PySpark, Snowflake, AWS (Lambda, API Gateway,
 DynamoDB, Glue, Step Functions, Redshift), Azure Data Factory, MongoDB, DuckDB,
 scikit-learn, pytest, mypy, GitHub Actions.
 
-**Learning right now:** Databricks, dbt, Airflow.
+**Next on my list:** dbt, Airflow, Databricks.
 
 ## Portfolio
 
-Eleven projects from the master, all public and MIT licensed. I went back through them
-afterwards and brought them to a consistent standard: tests and CI where it made sense,
-type checking, a README that explains the choices rather than just the code.
+Eleven projects from the master, all public and MIT licensed. I made the design decisions
+and Claude wrote much of the code. I went back through them afterwards and brought them to
+a consistent standard: tests and CI where it made sense, type checking, a README that
+explains the choices rather than just the code.
 [Browse them all here.](https://github.com/profession-ai-data-engineering-master)
 
 | # | Project | What it is | Stack |
@@ -52,10 +52,10 @@ type checking, a README that explains the choices rather than just the code.
 
 ### FitFriends (private repo)
 
-A side project, a mobile app for finding people to train with. Serverless backend on AWS:
-36 Python Lambdas, API Gateway with both REST and WebSocket, DynamoDB single table design,
-infrastructure in SAM, dev and prod split across AWS Organizations. Flutter client. CI/CD
-with a coverage gate at 90%.
+A side project in a team of three, a mobile app for finding people to train with, still in
+development. The app is React Native with Expo, and the backend is being rebuilt as serverless
+on AWS with CDK in TypeScript. I decide the architecture and the merges, while Claude Code
+agents write the code issue by issue and a reviewer agent checks each PR.
 
 ## Get in touch
 
