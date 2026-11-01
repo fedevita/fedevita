@@ -12,7 +12,7 @@ systems disagree about, jobs that have to run correctly at 3am.
 
 More recently I've been moving toward the modern data stack. I finished a
 [Master in Data Engineering](https://certify.profession.ai/69f88359c63b283adf882aca).
-Everything in the portfolio below came out of that.
+The eleven projects below came out of that.
 
 Best way to reach me: [LinkedIn](https://www.linkedin.com/in/federicovita/) or
 [federico.vita1997@gmail.com](mailto:federico.vita1997@gmail.com).
